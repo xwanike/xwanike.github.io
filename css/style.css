@@ -256,10 +256,12 @@ body {
 .menu-card .menu-card-img {
   cursor: pointer; /* Menjadikan kursor berubah saat mengarah ke gambar */
   transition: transform 0.3s; /* Efek transisi perubahan ukuran */
+  max-width: 100%;
 }
 
 .menu-card .menu-card-img.enlarged {
-  transform: scale(1.2); /* Perbesar gambar saat diberi kelas "enlarged" */
+  transform: scale(1.5); /* Perbesar gambar saat diberi kelas "enlarged" */
+  max-width: none;
 }
 
 h1,
