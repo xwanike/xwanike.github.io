@@ -402,9 +402,20 @@ footer .socials a {
   margin: 1rem;
 }
 
+.facebook-icon {
+  color: #fff; /* Warna ikon */
+  font-size: 24px; /* Ukuran ikon */
+  margin-right: 1rem; /* Jarak antara ikon dengan teks lain, sesuaikan sesuai kebutuhan */
+  text-decoration: none; /* Hapus dekorasi tautan */
+}
+
 footer .socials a:hover,
 footer .links a:hover {
   color: var(--bg);
+}
+
+.facebook-icon :hover {
+  color: var(--primary);
 }
 
 footer .links {
