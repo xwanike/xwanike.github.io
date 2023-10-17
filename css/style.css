@@ -415,7 +415,7 @@ footer .links a:hover {
 }
 
 .facebook-icon :hover {
-  color: var(--primary);
+  color: var(--bg);
 }
 
 footer .links {
